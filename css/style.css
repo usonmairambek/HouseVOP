@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* Header style */
+
+.header {
+    height: 840px;
+    background: url(../images/header_logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo-text {
+    margin-top: 30px;
+    font-size: 36px;
+    font-family: 'ubuntu';
+    color: white;
+    line-height: 53px;
+}
+
+.header__logo-text-span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 14px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    letter-spacing: 1.2px;
+}
+
+.header__logo-subtext {}
+
+.header__nav-item {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__nav-items {
+    margin-left: 40px;
+    list-style: none;
+}
+
+.header__center-span {
+    padding-left: 60px;
+}
+
+.header__nav-links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.header__center-h1 {
+    color: rgba(212, 193, 127, 1);
+    font-size: 48px;
+   padding-top: 25%;
+    line-height: 63px;
+    text-align: justify;
+}
+
+.header__center-box {
+    display: flex;
+    justify-content: center;
+}
+.header__center-mouse{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+.header__center-btn{
+    background: transparent;
+    outline-style: none;
+    border: none;
+    text-align: center;
+    text-align: center;
+}
+.header__center-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* Style for section  */
